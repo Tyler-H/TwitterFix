@@ -28,9 +28,6 @@
 nav[role="navigation"] a div div:last-child {
     font-size: 14px;
 }
-#react-root > div > div > div > header[role="banner"] > div > div > div {
-    width: 200px;
-}
 #react-root main[role="main"] div[data-testid="primaryColumn"], #react-root main[role="main"] div[data-testid="primaryColumn"] > div > div > div {
     max-width: 900px;
 }
