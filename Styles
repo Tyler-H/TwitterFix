@@ -41,3 +41,6 @@ div[data-focusable="true"] > div[aria-modal="true"] {
 div[data-focusable="true"] > div[aria-modal="true"] > div > div:last-child {
     max-width: 800px;
 }
+div[data-testid="primaryColumn"] > div > div:last-child > div > div {
+    max-width: 900px;
+}
