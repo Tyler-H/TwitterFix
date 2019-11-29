@@ -28,16 +28,10 @@
 nav[role="navigation"] a div div:last-child {
     font-size: 14px;
 }
-#react-root main[role="main"] div[data-testid="primaryColumn"], #react-root main[role="main"] div[data-testid="primaryColumn"] > div > div > div {
-    max-width: 900px;
-}
-div[data-focusable="true"] > div[aria-modal="true"] {
-    left: 3%;
-    min-width: 800px;
-}
 div[data-focusable="true"] > div[aria-modal="true"] > div > div:last-child {
     max-width: 800px;
 }
+
 div[data-testid="primaryColumn"] > div > div:last-child > div > div, div[data-testid="primaryColumn"] > div > div:last-child {
     max-width: 900px;
 }
